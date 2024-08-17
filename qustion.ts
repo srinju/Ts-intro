@@ -12,6 +12,24 @@ function isLegal(arr : User[]) : User[] {
     return arr.filter((user) => user.age > 18)
 }
 
+/* OR
+
+function isLegal(arr: User[]): User[] {
+    const legalUsers: User[] = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        const user = arr[i];
+        if (user.age > 18) {
+            legalUsers.push(user);
+        }
+    }
+
+    return legalUsers;
+}
+
+
+*/
+
 const users : User[] = [{
     firstName : "srinjoy",
     lastName : "das",
