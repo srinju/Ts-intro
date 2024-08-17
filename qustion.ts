@@ -8,7 +8,7 @@ type User = {
     age : number
 }
 
-function isLegal(arr : User[]) : User[] {
+function isLegal(arr : User[]) {
     return arr.filter((user) => user.age > 18)
 }
 
