@@ -24,3 +24,4 @@ class Employee implements Person {
 
 const e = new Employee("harkirat" , 22);
 console.log(e);
+console.log(e.greet("hi there brother or sister"))
