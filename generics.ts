@@ -60,7 +60,7 @@ function FirstElementOfArr<T>(solvedarr : T[]) {
 }
 
 const value1 =  FirstElementOfArr<number>([1,2,3]);
-const value2 = FirstElementOfArr<string>(["srinjoy" , "sukanya"]);
+const value2 = FirstElementOfArr<string>(["srinjoy" , "shakir"]);
 const value3 = FirstElementOfArr<string>(["hehe" , "hoho" , 1 , 2]) //throws error coz we mentioned in the generic that it would be a string and we have given mixed numbers and strigs
 
 const uppercased = value2.toUpperCase();
